@@ -1,0 +1,37 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.margem-principal{
+    
+    padding: auto;
+    width: 70%;
+    border: 1px solid;
+    align-items: center;
+}
+h1{
+    margin: 2%;
+    text-align: center;    
+    background-color: gray;
+    font-family:  sans-serif;
+}
+
+h2{
+    margin: 2%;
+    text-align: center;
+    background-color: gray;
+}
+div{
+    margin: 2%;
+    padding: 20px;
+    border: 1px solid;
+    
+}
+#lista{
+    line-height: 2;
+}
