@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media</title>
+</head>
+<body>
+    <h1>media de nota</h1>
+    <button onclick="inicio()">clicar</button>
+    <p id="resultado">{resultado}</p>
+    <script>
+        function inicio(){
+            let nome = prompt('qual e o seu nome:')
+            let n1 = Number(prompt('nota 1:'))
+            let n2 = Number(prompt('nota 2:'))
+            let resultado = (n1 + n2)/2 
+
+            document.getElementById('resultado').innerHTML = `media final ${resultado}` 
+            alert (` A media do ${nome} é ${resultado} ` )
+       
+        }
+        
+    </script>
+</body>
+</html>

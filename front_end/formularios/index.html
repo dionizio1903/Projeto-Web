@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo/styles.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="form-container">
+        <h3>Formulario Basico</h3>
+
+        <form action="https://sys4soft.com/udemy/forms/index.php" target="_blank" method="post">
+            <div class="form-group">
+
+            <!--text -->
+                <label for="">Nome do usuario</label>
+                <input type="text" name="campo_texto" minlength="5" maxlength="5" required placeholder="Nome completo" size="30%">
+               
+            </div>
+
+            <!--e-mail-->
+            <label for="">Email</label>
+            <div class="form-group">
+                <input type="email" name="campo_email" multiple >
+            </div>
+
+            <!--senha-->
+            <div class="form-group">
+                <input type="password" name="campo_senha" >
+            </div>
+
+            <!--numero-->
+            <div class="form-group">
+                <input type="number" name="campo_numero" >
+            </div>
+
+            <!--url
+            <div class="form-group">
+                <input type="url" name="campo_url" >
+            </div>
+-->
+            <!--radio-->
+            <div class="form-group">
+                <label for="">
+                    <input type="radio" name="genero" >Masculino
+                </label>
+                
+                <div class="form-group">
+                    <label for="">
+                        <input type="radio" name="genero" >Feminino
+                    </label>
+                
+            </div>
+
+            <!--select-->
+
+            <label for="">Selecione uma opção</label>
+            <select name="campo_opcao" id="">
+                <option value=""></option>
+                <option value="">Brasil</option>
+                <option value="">Portugal</option>
+                <option value="">Alemanha</option>
+                <option value="">Italia</option>
+            </select>
+            
+            <div class="form-group">
+                <input type="date" name="campo_data" >
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Enviar">
+            </div>
+
+            
+
+        </form>
+
+    </div>
+</body>
+</html>

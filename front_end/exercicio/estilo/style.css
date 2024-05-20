@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: block;
+    
+    
+    width: 100%;
+    
+    
+    
+    
+}
+
+.cabecalho{
+    
+    background-color: brown;
+    
+    
+    
+}
+.esquerdo{
+    
+    background-color: blue;
+    width: 30%;
+    
+    
+    
+
+}
+.meio{
+
+    background-color: purple ;
+    width: 30%;
+
+    
+    
+}
+.direito{
+    
+    background-color: green ;
+    
+    
+     
+    
+}
+
+.rodape{
+    background-color: violet ;
+    
+
+    
+    
+}
