@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let pessoa = {
+            nome:"joao",
+            sobrenome:"pereira",
+            idade: 48,
+            genero:"masculino",
+
+            apresenta_nome: function(){
+                return this.nome + this.sobrenome
+            },
+
+            apresenta_idade: function(){
+                return this.idade + 'anos de idade'
+            },
+
+            hobbies: [
+                "programação" ,
+                'cinema' ,
+                'musica'
+           ],
+        }
+
+        console.log(pessoa.nome)
+        console.log(pessoa.apresenta_nome())
+        console.log(pessoa.apresenta_idade())
+        console.log(pessoa.hobbies)
+    </script>
+</body>
+</html>

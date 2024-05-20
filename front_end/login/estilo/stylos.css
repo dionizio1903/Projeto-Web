@@ -1,0 +1,74 @@
+.container-login{
+    background-image: linear-gradient( 90.1deg,  rgba(84,212,228,1) 0.2%, rgba(68,36,164,1) 99.9% );
+    display: flex;
+    border: 1px solid;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    
+    
+}
+.form-group  h1{
+   text-align: center;
+}
+.form-group{
+    display: flex;
+    margin: 10% ;
+    background-color: white;
+    max-width: 500px;
+    padding: 2%;
+    border-radius: 10px;
+    width: 50%;
+    box-shadow: 10px 10px 8px   rgb(0, 0, 0);
+        
+}
+
+.form-group label{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.entrada{
+    width: 95%;
+    margin-bottom: 30px;
+    border: 2px solid;
+    padding: 5px;
+}
+
+.bt{
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 40%, #97D9E1 100%);
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-color: white;
+    color: white;
+    font-weight: 100;
+    font-size: 15px;
+    padding: 10px;
+    
+}
+
+.bt_fechar{
+    margin-left: 90%;
+    width: 10%;
+    background-color: white;
+    border: white; 
+    
+}
+
+.form-group p{
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.form-group a{
+    text-decoration: none;
+}
+
+.bt:hover{
+    box-shadow: 0 0 4px 0 black;
+}
+.bt_fechar:hover{
+    box-shadow: 0 0 4px 0 black; 
+}
