@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: block;
+    padding: 2%;    
+}
+
+/* estilo cabeçalho */
+
+.container_cabecalho{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 80%;
+    width: 100%; 
+    border-bottom: 1px solid black;   
+}
+
+.container_cabecalho a{
+    color: blue;
+    align-items: center;
+    margin-left:  5px;
+    text-decoration: none;
+
+}
+.container_cabecalho .icon_nave a{
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+/* estilo navegaçao*/
+
+.container-nevegacao{
+    margin: 1%;
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%; 
+    border-bottom: 4px solid blue;  
+ }
+
+ .container-nevegacao .icon_logo #logo_empresa{
+    width: 100%;    
+    height: 80px;    
+ }
+ .container-nevegacao .navegacao  {
+    display: flex;
+    
+    justify-content: center;
+    margin-left: 48% ;
+    padding: 10px;    
+    height: 20px;
+    max-width: 27%;
+    
+    
+ }
+
+ .container-nevegacao .navegacao a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: blue;
+ }
+ .container-nevegacao  #carrinho {
+    max-width:  100%;
+    height: 30px;
+    border-radius: 50px;
+    
+ }
+
+/* estilo produtos*/
+
+.container_produto{
+    margin: 1%;
+    
+}
+
+.container_produto .produtos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    margin: 2% 9%;
+
+    
+}
+
+.container_produto .produtos div{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    max-width: 250%;
+   
+}
+
+.container_produto h1{
+    margin: 1%;
+    width: 100%;
+    height: 50px;
+    background-color: #175eab;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} 
+
+.container_produto img{
+    border: 2px solid;
+    width: 80%;
+    margin: 20px;
+}
+
+.container_produto button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    max-width: 100px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #175eab;
+    margin-left: 30%;
+}
+
+.container_produto h4{
+    
+    margin-left:60px;
+    max-width: 50%;
+    height: 50px;
+
+}
+
+
+ /* estilo rodape*/ 
+
+.container_rotape .rodape_inf{
+    border-top: 1px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1%;
+    width: 100%;
+    height: 150px;
+        
+}
+
+.container_rotape .logo_empresa_rodape img{
+    width: 100%;    
+    height: 80px;
+}
+
+.container_rotape .menu {
+    margin-top: 20px;
+    
+        
+}
+
+.container_rotape .menu  h3{
+    margin-bottom: 12px;    
+    color: blue;
+}
+
+.container_rotape .menu a{
+    display: block;
+    width: 100%;
+    margin: 2px;
+    text-decoration: none;    
+}
+
+.container_rotape .endereco {
+    margin-top: 20px;
+    height: 115px;        
+}
+
+.container_rotape .endereco  h3{
+    margin-bottom: 12px; 
+    color: blue;   
+}
+
+.container_rotape .endereco  a{
+    text-decoration: none;    
+}
+
+.container_rotape .direitos {
+    display: flex;
+    width: 100%;
+    background-color: #175eab;
+    margin: 1% ;
+    margin-bottom: 0;    
+    height: 60px;    
+    justify-content:center;
+    align-items: center;
+    
+} 

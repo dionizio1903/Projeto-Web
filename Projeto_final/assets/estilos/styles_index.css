@@ -4,9 +4,7 @@
 }
 body{
     display: block;
-    padding: 2%;
-    
-    
+    padding: 2%;    
 }
 
 /* estilo cabeçalho */
@@ -31,11 +29,11 @@ body{
     margin-left: 5px;
     text-decoration: none;
 }
+
  /* estilo navegaçao*/
 
  .container-nevegacao{
-    margin: 1%;
-    
+    margin: 1%;    
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -43,23 +41,18 @@ body{
     width: 100%; 
     border-bottom: 4px solid blue;  
  }
-
  .container-nevegacao .icon_logo #logo_empresa{
     width: 100%;    
     height: 80px;    
  }
  .container-nevegacao .navegacao  {
-    display: flex;
-    
+    display: flex;    
     justify-content: center;
     margin-left: 48% ;
     padding: 10px;    
     height: 20px;
-    max-width: 27%;
-    
-    
+    max-width: 27%;    
  }
-
  .container-nevegacao .navegacao a{
     text-decoration: none;
     margin-left: 10px;
@@ -68,8 +61,7 @@ body{
  .container-nevegacao  #carrinho {
     max-width:  100%;
     height: 30px;
-    border-radius: 50px;
-    
+    border-radius: 50px;    
  }
 
 /* estilo principal*/ 
